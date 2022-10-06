@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
-
+const dbUtil = require("./db/dbUtil.js");
+const dbQueryUtil = require("./db/dbUtil.js");
 
 init();
 
